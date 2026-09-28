@@ -1,6 +1,19 @@
 # Secure-PIM LOC arrays — 2026-09-17
 
-Four standalone CACTI configurations; no gem5 code/timing/capacity changes.
+**Unified-design update:** `ur.cfg` replaces the separate RC + EQ in the current
+design. See [UNIFIED.md](UNIFIED.md) and `unified_sweep_results.csv`. The old
+`rc.cfg`, `eq.cfg`, results and descriptions below are historical comparisons,
+not additional structures to instantiate alongside UR. CC/OC are unchanged
+(OC inFlight needs 9 bits if unified capacity is raised from 64 to 256).
+
+**Token-table addition (2026-09-28):** `tt.cfg` and `pt.cfg` model the
+32-entry TEE token table and 256-entry process token table as indexed SRAM,
+with no backing store. See [TOKENS.md](TOKENS.md) for fields, lifecycle
+assumptions and CACTI estimates, and `token_results.csv` for results.
+Reproduce with `python3 run_tokens.py`. These are separate from CC/OC/UR.
+
+The original four standalone CACTI configurations are documented below;
+no gem5 code/timing/capacity changes are made by these models.
 This package supersedes the earlier 32-MiB/page-encoded OC and extra-valid-bit
 sizing proposals under the gem5 repository's configs/cacti directory.
 
