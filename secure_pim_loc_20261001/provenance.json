@@ -1,0 +1,12 @@
+{
+  "cacti": "/u/rgq5aw/GIT/cacti/cacti",
+  "sha256": "85b98f8f25e6772ae6b5288f881f41b3b1525a1b0b915f15d7243ff8a1d41db7",
+  "clock_ns": 0.333,
+  "config_sha256": {
+    "cc": "32075e8ddb4716ed5c975331ae207b700313a32f94c1386147d9483c6cbeba72",
+    "oc": "9724e0c51b427c75d4df60c947d7ba95222051f9d56aabb4b52cbf95fe99c942",
+    "rt": "f7b04ae7496f911c7c6d68c05e15ac5f1add2824604d959bdd74fdf1acba8705",
+    "tt": "fc59e065e28525c991c47c10fba547fa43fc5b1df789f351dae4ce0c101e057a",
+    "pt": "4c39d437d5d44b5a8796ae6065627c3f7e817567090d0edaeb7753a28cb84f47"
+  }
+}

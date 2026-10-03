@@ -1,0 +1,65 @@
+{
+  "source": "/p/lava/morteza/prism-e2e-security-gem5-aatmanb/src/prism-e2e-security-pep/cacti/rt.cfg",
+  "cacti": "/u/rgq5aw/GIT/cacti/cacti",
+  "cacti_sha256": "85b98f8f25e6772ae6b5288f881f41b3b1525a1b0b915f15d7243ff8a1d41db7",
+  "clock_ns": 0.333,
+  "cases": [
+    [
+      "original_1",
+      1,
+      128,
+      1024,
+      false
+    ],
+    [
+      "original_64",
+      64,
+      128,
+      1024,
+      false
+    ],
+    [
+      "narrow_output_64",
+      64,
+      128,
+      512,
+      false
+    ],
+    [
+      "compact_64",
+      64,
+      64,
+      512,
+      false
+    ],
+    [
+      "compact_128",
+      128,
+      64,
+      512,
+      false
+    ],
+    [
+      "compact_256",
+      256,
+      64,
+      512,
+      false
+    ],
+    [
+      "indexed_original_64",
+      64,
+      128,
+      1024,
+      true
+    ],
+    [
+      "indexed_compact_64",
+      64,
+      64,
+      512,
+      true
+    ]
+  ],
+  "repository_source_config": "../rt.cfg"
+}

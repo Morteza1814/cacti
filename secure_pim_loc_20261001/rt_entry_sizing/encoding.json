@@ -1,0 +1,28 @@
+{
+  "device_capacity_bytes": 33554432,
+  "payload_field_bits": {
+    "completion": 64,
+    "status": 9,
+    "owner_token": 64,
+    "state": 2,
+    "object_ids": 192,
+    "opcode": 2,
+    "byte_length": 26,
+    "device_bases": 75
+  },
+  "request_id_bits": 64,
+  "compact_cam_payload_bits": 434,
+  "compact_indexed_payload_including_id_bits": 498,
+  "current_opcodes": [
+    1,
+    2,
+    3
+  ],
+  "maximum_current_status": "0x106",
+  "notes": [
+    "Sizing comparison only; no controller organization or timing code changed in this experiment.",
+    "Compact address and length widths require the stated device capacity; recompute and validate them for other capacities.",
+    "Indexed models include the full request ID in row data and require a slot-selection scheme plus ID/owner/state validation outside the SRAM.",
+    "A one-entry no_model result is not proof that a register implementation cannot meet timing."
+  ]
+}

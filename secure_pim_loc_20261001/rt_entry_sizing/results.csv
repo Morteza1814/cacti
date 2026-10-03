@@ -1,0 +1,9 @@
+case,entries,entry_bytes,output_bits,access_ns,cycle_ns,status
+original_1,1,128,1024,,,no_model
+original_64,64,128,1024,0.496566,1.27089,ok
+narrow_output_64,64,128,512,0.496566,1.27089,ok
+compact_64,64,64,512,0.303868,0.519014,ok
+compact_128,128,64,512,,,no_model
+compact_256,256,64,512,0.401647,0.519014,ok
+indexed_original_64,64,128,1024,0.179514,0.350759,ok
+indexed_compact_64,64,64,512,0.114918,0.144325,ok
